@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nav_contacts"
+    android:padding="10dp"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contacts1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contacts"
+            android:textSize="15sp"
+            android:textColor="@color/colorText"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/findUs"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:textColor="@color/colorTextForButton"
+        android:text="@string/find_us"
+        android:gravity="center"/>
+
+
+</LinearLayout>

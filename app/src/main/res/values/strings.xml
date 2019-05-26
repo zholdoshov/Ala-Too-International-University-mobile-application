@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Ala-Too</string>
+    <string name="student_id">Student ID</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="ala_too_international_university">Ala-Too International University</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Student Name</string>
+    <string name="nav_header_subtitle">Department</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="log_out">Log Out</string>
+    <string name="home">Home</string>
+    <string name="student_name">Student Name</string>
+    <string name="about_student">About Student</string>
+    <string name="transcript">Transcript</string>
+    <string name="feedback">Feedback</string>
+    <string name="find_us_on">Find us on</string>
+    <string name="social_media">Social Media</string>
+    <string name="contacts">
+        <br>
+        Ala-Too International University \n</br>
+        <br>
+        Ankara Street 1/8, Tunguch, 720048 \n</br>
+        <br>
+        Bishkek, Kyrgyz Republic \n</br>
+        <br>
+        Tel: +996 (312) 631425 \n</br>
+        <br>
+        Fax: +996(312) 630409 \n</br>
+        <br>
+        E-mail: info@iaau.edu.kg \n</br>
+        <br>
+        Buses: 7, 29, 102, 105, 128
+                137, 147, 154, 166, 258, 262 \n</br>
+        <br>
+        Registration Office: \n</br>
+        <br>
+        Ala-Too International University (A-Block),107 room \n</br>
+        <br>
+        Address: Ankara Street 1/8, Tunguch \n</br>
+        <br>
+        720048, Bishkek, Kyrgyz Republic \n</br>
+        <br>
+        Tel: +996 (312) 630407 \n</br>
+        <br>
+            +996 555 820 000 (WhatsApp) \n</br>
+
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news">News</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="subject_feedback">Subject</string>
+    <string name="message_feedback">Your Message</string>
+    <string name="send">Send</string>
+    <string name="feedback_caption">Please fill in all fields and describe the essence of your message!</string>
+    <string name="log_in_as_a_guest"><u>Log in as a guest</u></string>
+    <string name="student_surname">Student Surname</string>
+    <string name="student_department">Student Department</string>
+    <string name="student_phone">Student Phone</string>
+    <string name="student_id_about_fragment">Student Id</string>
+    <string name="student_group">Student Group</string>
+    <string name="student_email">Student Email</string>
+    <string name="student_birth_date">Student Birth Date</string>
+    <string name="student_education_status">Student Education Status</string>
+    <string name="student_academic_status">Student Academic Status</string>
+    <string name="student_gender">Student Gender</string>
+    <string name="total_of_subjects">Total # of Subjects</string>
+    <string name="name_of_subject">Name of Subject</string>
+    <string name="location">Location</string>
+    <string name="find_us">Click Here to Find Us on Google Maps</string>
+    <string name="contacts1">Contacts</string>
+    <string name="title_of_media">Title Of Media</string>
+    <string name="description_of_media">Description Of Media</string>
+    <string name="exit">Exit</string>
+</resources>

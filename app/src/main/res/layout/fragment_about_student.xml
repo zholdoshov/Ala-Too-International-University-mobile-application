@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/student_name"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_surname"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_surname"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_id"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_id_about_fragment"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_department"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_department"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_group"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_group"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_phone"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_phone"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_email"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_email"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_birthDate"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_birth_date"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_educationStatus"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_education_status"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_academicStatus"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_academic_status"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/student_gender"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_gender"
+        android:textColor="@color/colorText"/>
+
+
+</LinearLayout>
