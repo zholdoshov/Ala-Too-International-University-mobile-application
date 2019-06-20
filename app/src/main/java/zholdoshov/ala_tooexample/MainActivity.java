@@ -104,6 +104,7 @@ public class MainActivity extends AppCompatActivity
         return builder;
     }
 
+    //Shows news fragment when you open the application
     private void showHome(){
         fragment = new HomeFragment();
         FragmentManager fragmentManager = getSupportFragmentManager();
