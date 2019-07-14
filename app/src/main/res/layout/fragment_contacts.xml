@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_contacts"
     android:padding="10dp"
-    android:background="@color/colorBackground"
+    android:background="@color/colorBackgroundGrey"
     android:orientation="vertical">
-
 
     <TextView
         android:layout_width="match_parent"
@@ -15,22 +15,200 @@
         android:text="@string/contacts1"
         android:textSize="20sp"
         android:gravity="center"
-        android:textColor="@color/colorText"
+        android:textColor="@color/colorTextGrey"
         tools:ignore="MissingConstraints" />
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UseCompoundDrawables">
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/contacts"
-            android:textSize="15sp"
-            android:textColor="@color/colorText"/>
+            app:srcCompat="@drawable/ic_department_black_40dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
 
-    </RelativeLayout>
+        <TextView
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ala-Too International University"
+            android:textColor="@color/colorTextGrey"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_phone_black_24dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tel: +996 (312) 631425"
+            android:textColor="@color/colorTextGrey"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_fax_black_24dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fax: +996 (312) 630409"
+            android:textColor="@color/colorTextGrey"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_whatsapp_black_24dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WhatsApp: +996 (312) 630407"
+            android:textColor="@color/colorTextGrey"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_email_black_40dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail: info@iaau.edu.kg"
+            android:textColor="@color/colorTextGrey"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_bus_black_40dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buses: 7, 102, 105, 128, 137, 147, 154, 166"
+            android:textColor="@color/colorTextGrey"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_registration_office_black_24dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration Office: A-Block, 107 room"
+            android:textColor="@color/colorTextGrey"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_address_black_24dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: Ankara Street 1/8, Tunguch 720048, Bishkek, Kyrgyz Republic"
+            android:textColor="@color/colorTextGrey"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -38,18 +216,18 @@
         android:text="@string/location"
         android:textSize="20sp"
         android:gravity="center"
-        android:textColor="@color/colorText"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorTextGrey"
         tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageButton
         android:id="@+id/findUs"
-        android:layout_width="match_parent"
-        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorGreen"
-        android:textColor="@color/colorTextForButton"
-        android:text="@string/find_us"
-        android:gravity="center"/>
+        android:text="Locate"
+        android:src="@drawable/map"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
 
 
 </LinearLayout>

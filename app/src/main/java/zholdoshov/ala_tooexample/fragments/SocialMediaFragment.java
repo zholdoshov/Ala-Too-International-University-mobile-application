@@ -30,11 +30,11 @@ public class SocialMediaFragment extends Fragment implements View.OnClickListene
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.fL) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.m.facebook.com/AlaTooInternationalUniversity"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.facebook.com/AlaTooInternationalUniversity/"));
             startActivity(Intent.createChooser(intent, "Choose app to open"));
         }
         if (v.getId() == R.id.tL) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.mobile.twitter.com/alatooedukg"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://mobile.twitter.com/alatooedukg/"));
             startActivity(Intent.createChooser(intent, "Choose app to open"));
         }
         if (v.getId() == R.id.iL) {
@@ -42,11 +42,11 @@ public class SocialMediaFragment extends Fragment implements View.OnClickListene
             startActivity(Intent.createChooser(intent, "Choose app to open"));
         }
         if (v.getId() == R.id.yL) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCRwPUKmeoiUausG3luv7d3Q"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCRwPUKmeoiUausG3luv7d3Q/"));
             startActivity(Intent.createChooser(intent, "Choose app to open"));
         }
         if (v.getId() == R.id.vL) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.m.vk.com/aiuedukg"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.vk.com/aiuedukg"));
             startActivity(Intent.createChooser(intent, "Choose app to open"));
         }
     }

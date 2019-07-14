@@ -2,9 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/colorBackground"
+    android:background="@color/colorBackgroundGrey"
     android:id="@+id/feedback_fragment">
 
     <LinearLayout
@@ -18,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/feedback_caption"
-            android:textColor="@color/colorText"
+            android:textColor="@color/colorTextGrey"
             android:textSize="20sp"/>
 
     </LinearLayout>
@@ -42,11 +41,11 @@
                 android:paddingBottom="20dp"
                 android:paddingTop="20dp"
                 android:hint="@string/subject_feedback"
-                android:backgroundTint="@color/colorText"
+                android:backgroundTint="@color/colorTextGrey"
                 android:inputType="text"
-                android:textColorHint="@color/colorText"
+                android:textColorHint="@color/colorTextGrey"
                 android:maxLines="1"
-                android:textColor="@color/colorText" />
+                android:textColor="@color/colorTextGrey" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -62,10 +61,10 @@
                 android:paddingTop="20dp"
                 android:paddingBottom="50dp"
                 android:hint="@string/message_feedback"
-                android:backgroundTint="@color/colorText"
+                android:backgroundTint="@color/colorTextGrey"
                 android:inputType="textMultiLine"
-                android:textColorHint="@color/colorText"
-                android:textColor="@color/colorText" />
+                android:textColorHint="@color/colorTextGrey"
+                android:textColor="@color/colorTextGrey" />
         </android.support.design.widget.TextInputLayout>
 
         <Button

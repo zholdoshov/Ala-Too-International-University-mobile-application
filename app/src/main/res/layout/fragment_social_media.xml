@@ -5,7 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/colorBackground">
+    android:background="@color/colorBackgroundGrey">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Us On:"
+        android:textSize="25sp"
+        android:textColor="@color/colorTextGrey"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
 
     <LinearLayout
         android:clickable="true"
@@ -29,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Facebook"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="20sp"/>
@@ -38,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Move fast and break things"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="15sp"/>
@@ -69,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Twitter"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="20sp"/>
@@ -78,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="When World War III starts, It'll start here"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="15sp"/>
@@ -109,7 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Instagram"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="20sp"/>
@@ -118,7 +128,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Mask bad photos with filters"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="15sp"/>
@@ -149,7 +159,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Youtube"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="20sp"/>
@@ -158,7 +168,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Broadcast Yourself"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="15sp"/>
@@ -189,7 +199,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="VK"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="20sp"/>
@@ -198,7 +208,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Be Simple, Be Social"
-                android:textColor="@color/colorText"
+                android:textColor="@color/colorTextGrey"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
                 android:textSize="15sp"/>
