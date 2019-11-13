@@ -95,17 +95,32 @@
             android:text="@string/log_in"
             android:layout_marginTop="5dp"/>
 
+        <View
+            android:layout_marginTop="15dp"
+            android:background="@color/colorGreen"
+            android:layout_width = "match_parent"
+            android:layout_height="1dp"/>
+
         <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="@string/continue_as_a_guest"
+            android:textColor="@color/colorText"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_marginTop="5dp"
             android:id="@+id/loginGuest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textStyle="italic"
-            android:textSize="18sp"
+            android:textAllCaps="false"
             android:onClick="guestClick"
             android:layout_gravity="center"
-            android:text="@string/log_in_as_a_guest"
-            android:textColor="@color/colorText"/>
+            android:background="@color/colorGreen"
+            android:text="@string/Continue"
+            android:textColor="@color/colorTextForButton"/>
 
     </LinearLayout>
 

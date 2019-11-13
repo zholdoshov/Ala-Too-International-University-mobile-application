@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="zholdoshov.ala_tooexample">
+    package="ala_too.mob_app">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -26,11 +26,11 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
         <activity
-            android:name=".Activities.MapsActivity"
+            android:name="ala_too.mob_app.Activities.MapsActivity"
             android:label="@string/title_activity_maps"
             tools:ignore="InnerclassSeparator" />
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name="ala_too.mob_app.Activities.LoginActivity"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator">
             <intent-filter>
@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="ala_too.mob_app.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>

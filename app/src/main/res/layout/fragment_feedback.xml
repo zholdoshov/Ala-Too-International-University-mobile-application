@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -45,7 +46,8 @@
                 android:inputType="text"
                 android:textColorHint="@color/colorTextGrey"
                 android:maxLines="1"
-                android:textColor="@color/colorTextGrey" />
+                android:textColor="@color/colorTextGrey"
+                tools:targetApi="lollipop" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -60,11 +62,12 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
                 android:paddingBottom="50dp"
-                android:hint="@string/message_feedback"
+                android:text="@string/message_feedback"
                 android:backgroundTint="@color/colorTextGrey"
                 android:inputType="textMultiLine"
                 android:textColorHint="@color/colorTextGrey"
-                android:textColor="@color/colorTextGrey" />
+                android:textColor="@color/colorTextGrey"
+                tools:ignore="UnusedAttribute" />
         </android.support.design.widget.TextInputLayout>
 
         <Button

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "zholdoshov.ala_tooexample"
+        applicationId "ala_too.mob_app"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
