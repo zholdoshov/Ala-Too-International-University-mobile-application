@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Activities.LoginActivity"
-    android:background="@color/colorBackground"
+    android:background="@color/colorBackgroundGrey"
     android:weightSum="3">
 
     <LinearLayout
@@ -22,14 +22,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
             android:text="@string/ala_too_international_university"
-            android:textColor="@color/colorText"
+            android:textColor="@color/colorTextGrey"
             android:textSize="20sp"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_gravity="bottom|center_horizontal"
-            app:srcCompat="@drawable/ic_assignment_ind_green_80dp"
+            app:srcCompat="@drawable/logo"
             tools:ignore="VectorDrawableCompat" />
 
     </LinearLayout>
@@ -61,11 +61,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/student_id"
-                android:backgroundTint="@color/colorText"
+                android:backgroundTint="@color/colorTextGrey"
                 android:inputType="number"
-                android:textColorHint="@color/colorText"
+                android:textColorHint="@color/colorTextGrey"
                 android:maxLines="1"
-                android:textColor="@color/colorText" />
+                android:textColor="@color/colorTextGrey" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -79,11 +79,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
-                android:backgroundTint="@color/colorText"
+                android:backgroundTint="@color/colorTextGrey"
                 android:inputType="textPassword"
-                android:textColorHint="@color/colorText"
+                android:textColorHint="@color/colorTextGrey"
                 android:maxLines="1"
-                android:textColor="@color/colorText" />
+                android:textColor="@color/colorTextGrey" />
         </android.support.design.widget.TextInputLayout>
 
         <Button
@@ -96,8 +96,8 @@
             android:layout_marginTop="5dp"/>
 
         <View
-            android:layout_marginTop="15dp"
-            android:background="@color/colorGreen"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorTextGrey"
             android:layout_width = "match_parent"
             android:layout_height="1dp"/>
 
@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
             android:text="@string/continue_as_a_guest"
-            android:textColor="@color/colorText"
+            android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
 
         <Button
@@ -115,7 +115,6 @@
             android:id="@+id/loginGuest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="italic"
             android:textAllCaps="false"
             android:onClick="guestClick"
             android:layout_gravity="center"

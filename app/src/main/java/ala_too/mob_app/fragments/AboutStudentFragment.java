@@ -21,7 +21,6 @@ import ala_too.mob_app.remote.IAUApi;
 public class AboutStudentFragment extends Fragment {
 
     TextView name, surname, id, department, group, phone, email, birthDate, educationStatus, academicStatus, gender;
-    Fragment fragment;
 
     @Nullable
     @Override
@@ -46,22 +45,11 @@ public class AboutStudentFragment extends Fragment {
         gender =view.findViewById(R.id.student_gender);
 
         doAboutStudent();
-
-        /*name.setText("Name: " + info.getName());
-        surname.setText("Surname: " + info.getSurname());
-        id.setText("Id: " + info.getId());
-        department.setText("Department: " + info.getDepartment());
-        group.setText("Group: " + info.getGroup());
-        phone.setText("Phone: " + info.getPhone());
-        email.setText("Email: " + info.getEmail());
-        birthDate.setText("Birth Date: " + info.getBirthDate());
-        educationStatus.setText("Education Status: " + info.getEducationStatus());
-        academicStatus.setText("Academic Status: " + info.getAcademicStatus());
-        gender.setText("Gender: " + info.getGender());*/
     }
 
     private  void doAboutStudent(){
         IAUApi.getInstance(getActivity()).getStudentInfo(new IAUApi.OnStudentInfo() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onStudentInfo(StudentInfo studentInfo) {
                 MainActivity activity = (MainActivity) getActivity();
